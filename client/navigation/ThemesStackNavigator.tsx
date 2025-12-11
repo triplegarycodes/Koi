@@ -1,25 +1,25 @@
 import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-import ProfileScreen from "@/screens/ProfileScreen";
+import ThemesScreen from "@/screens/ThemesScreen";
 import { useScreenOptions } from "@/hooks/useScreenOptions";
 
-export type ProfileStackParamList = {
-  Profile: undefined;
+export type ThemesStackParamList = {
+  Themes: undefined;
 };
 
-const Stack = createNativeStackNavigator<ProfileStackParamList>();
+const Stack = createNativeStackNavigator<ThemesStackParamList>();
 
-export default function ProfileStackNavigator() {
+export default function ThemesStackNavigator() {
   const screenOptions = useScreenOptions({ transparent: false });
 
   return (
     <Stack.Navigator screenOptions={screenOptions}>
       <Stack.Screen
-        name="Profile"
-        component={ProfileScreen}
+        name="Themes"
+        component={ThemesScreen}
         options={{
-          headerTitle: "Profile",
+          headerTitle: "Themes",
         }}
       />
     </Stack.Navigator>
