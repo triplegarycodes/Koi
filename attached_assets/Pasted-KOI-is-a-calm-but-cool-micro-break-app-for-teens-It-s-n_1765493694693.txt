@@ -1,0 +1,216 @@
+KOI is a calm-but-cool micro-break app for teens.
+It’s not therapy. It’s not motivational quotes. It’s a vibe — a water-themed, aesthetic reset space built for quick 30–180 second breaks.
+
+Your task is to build a React Native app (Expo recommended but not required) that feels smooth, modern, and teen-friendly, focusing on visuals, sound, interaction, and personalization.
+
+🎯 Purpose
+
+KOI helps teens take fast mental resets that feel refreshing instead of preachy.
+Everything should be:
+
+Visual-first
+
+Water-inspired
+
+Minimalist
+
+Zero cringe
+
+Extremely simple to use
+
+🌊 Core Experience
+
+When a user taps “Take a Break,” they enter a full-screen scene of animated water.
+No walls of text. No voiceovers.
+Just a few tactile interactions and a short reset.
+
+Break sessions should feel like:
+
+Watching ripples spread
+
+Guiding a koi fish
+
+Listening to soft water sounds
+
+Drifting for a minute
+
+The feeling is quiet, clean, and aesthetic, not self-help.
+
+✨ Main Features
+1. Full-Screen Water Breaks
+
+A water scene that reacts to touch.
+Users should be able to:
+
+Tap to create ripples
+
+Drag or guide a koi fish around
+
+Pop bubbles
+
+Cause small waves or motions
+Everything should feel smooth and visual.
+
+2. Water Themes (Mainly Water-Based)
+
+Several preset themes, such as:
+
+Koi Pond (default)
+
+Deep Sea
+
+Rainy Window
+
+Tide Pool
+
+Glacier Lake
+
+Zen River
+
+Each theme changes the water color, atmosphere, sounds, and small visual effects.
+
+3. Theme Customization
+
+Let users customize their own themes:
+
+Water color
+
+Ripple intensity
+
+Particle effects
+
+Koi fish color
+
+Ambient sound level
+
+The customizer should feel playful, not technical.
+
+4. Mood Slider
+
+A simple “Foggy → Clear” slider that slightly adjusts the visuals based on mood.
+No journaling. No data harvesting.
+Just a quick emotional “check-in” for the user.
+
+5. Micro Timer Options
+
+Preset break lengths:
+
+30 seconds
+
+1 minute
+
+3 minutes
+
+The timer should be subtle and not dominate the screen.
+
+6. Calm Soundscapes
+
+Short looped ambience, such as:
+
+Pond water
+
+Deep underwater hum
+
+Rain on glass
+
+Gentle waves
+
+Sound is optional and can be disabled.
+
+7. Fidget Interactions
+
+Small extras teens will love:
+
+Guide a koi fish
+
+Move lily pads
+
+Tap little sparkles or bubbles
+
+Create small waves with finger swipes
+
+These should feel like a “fidget toy” but visual.
+
+8. Privacy-First
+
+Everything is local by default.
+No mandatory accounts.
+Any data (mood slider, streaks, saved themes) can stay on device.
+
+🚀 “Above and Beyond” Ideas for Teens
+
+Optional enhancements that fit the vibe:
+
+Break Streaks: A soft streak counter with non-intense rewards.
+
+Theme Sharing: Users can share custom themes with friends (locally or through a simple code).
+
+Break Together: Sync a 60-second break with a friend using a simple join code.
+
+Export Aesthetic Clips: Let users save or share a small looping animation of their water theme.
+
+Hidden Interactions: Easter eggs, glowing particles, or special koi colors unlocked by use.
+
+Low Motion Mode: Accessibility for motion sensitivity.
+
+🎨 Style & Aesthetic Guidelines
+
+Minimalist UI
+
+Aesthetic water visuals
+
+Gentle animations
+
+Dark-mode first
+
+Teen-friendly names and text (simple, casual, not preachy)
+
+Examples of tone:
+
+“Take a sec”
+
+“Pick a vibe”
+
+“Ready to drift?”
+
+“Foggy → Clear”
+
+🧭 App Structure (Conceptual Only)
+
+Replit is free to create the layout, but suggested screens include:
+
+Home (start break + quick controls)
+
+Break Scene (water animation + interactions)
+
+Themes (pick or customize)
+
+Settings
+
+Onboarding (very short, very simple)
+
+💡 Development Notes (No Code Required)
+
+The app should feel fluid, calm, and reactive to touch.
+
+Water interactions should feel lightweight (not realistic physics, just aesthetic).
+
+Teens prioritize vibe → keep UI clean + animations smooth.
+
+Sound loops should be short and subtle.
+
+🎁 Final Delivery Goals
+
+A React Native app that:
+
+Looks beautiful
+
+Feels soothing
+
+Has water-based micro-breaks
+
+Has customization and interactivity
+
+Is built with creative freedom
+
+Feels modern and teen-centric
