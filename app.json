@@ -1,47 +1,11 @@
 {
   "expo": {
-    "name": "KOI",
+    "name": "Koi",
     "slug": "koi",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "koi",
-    "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.koi.app"
-    },
-    "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#0F172A",
-        "foregroundImage": "./assets/images/icon.png"
-      },
-      "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false,
-      "package": "com.koi.app"
-    },
-    "web": {
-      "output": "single",
-      "favicon": "./assets/images/favicon.png"
-    },
-    "plugins": [
-      [
-        "expo-splash-screen",
-        {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#0F172A",
-          "dark": {
-            "backgroundColor": "#0F172A"
-          }
-        }
-      ],
-      "expo-web-browser"
-    ],
-    "experiments": {
-      "reactCompiler": true
-    }
+    "sdkVersion": "48.0.0",
+    "platforms": ["ios", "android"],
+    "entryPoint": "./App.tsx",
+    "orientation": "portrait"
   }
 }
