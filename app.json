@@ -6,6 +6,12 @@
     "sdkVersion": "48.0.0",
     "platforms": ["ios", "android"],
     "entryPoint": "./App.tsx",
-    "orientation": "portrait"
+    "orientation": "portrait",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
   }
 }
